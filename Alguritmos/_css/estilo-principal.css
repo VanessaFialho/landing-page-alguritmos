@@ -1,0 +1,217 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@font-face {
+	font-family: 'Mikado';
+	src: url('../_fontes/Mikado-Medium.otf');
+}
+@font-face {
+	font-family: 'Bungee';
+	src: url('../_fontes/Bungee-Regular.ttf');
+}
+
+body {
+	background-color: #E5E5E5;
+	font-family: 'Mikado', sans-serif;
+}
+
+header{
+	background: url(../_imagens/capa-inicio.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+div.container {
+	background-color: #ffffff;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+	text-align: center;
+	margin-top: -60px;
+}
+
+/***********************************************************/
+
+/**Navbar**/
+nav.navbar li{
+	margin-right: 24px; 
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+nav.navbar img {
+	width: 200px;
+}	
+
+nav.navbar a {
+	color: #ffffff;
+}	
+
+nav.navbar a#cursoonline{
+	background-color: #04ADBF;
+	padding: 8px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 6px #04ADBF;
+}
+
+nav.navbar a#desafio{
+	background-color: #F7EF0D;
+	padding: 12px;
+	font-family: 'Bungee';
+	color: #562EB8;
+	text-shadow: 1px -1px 0px #04ADBF, -1px 1px 0px #EA1889;
+	letter-spacing: 1px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 6px #F7EF0D;
+}
+
+
+/***********************************************************/
+
+/**Cabeçalho**/	
+div.row.cabecalho {
+	color: #ffffff;
+	padding: 50px;
+	text-align: center;
+}
+
+div.row.cabecalho div.col-md-12{
+	padding-top: 30px;
+	padding-bottom: 40px;
+	margin: auto;
+}
+
+div.row.cabecalho h1 {
+	font-weight: bold;
+	font-size: 40px;
+	margin: 30px auto 30px auto;
+	letter-spacing: 2px;
+}
+
+div.row.cabecalho h5 {
+	margin: 30px auto 30px auto;
+	line-height: 36px;
+}
+
+div.row.cabecalho a {
+	font-size: 14px;
+	color: #ffffff;
+	background-color: #562EB8;
+	padding: 14px;
+	box-shadow: 1px 1px 6px #562EB8;
+	margin: 20px 40px 20px 40px;
+	border-radius: 10px;
+}
+
+/***********************************************************/
+
+/**Proposito**/
+div.row.proposito {
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
+	padding: 20px 50px 20px 50px;
+}
+
+div.row.proposito div.col-md-12 {
+	padding: 50px;
+}
+
+div.row.proposito h2 {
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+div.row.proposito p {
+    color: #727272;
+	line-height: 30px;
+}
+
+/***********************************************************/
+
+/**Info**/
+div.row.info {
+    padding: 20px;
+}
+
+div.row.info div.col-md-4 {
+    padding: 50px;
+}
+
+div.row.info img {
+    margin-bottom: 35px;
+    width: 100px;
+}
+
+div.row.info h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.row.info p {
+	color: #727272;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+/***********************************************************/
+
+/**Frase**/
+div.row.frase {
+	background-color: #04ADBF;
+	color: #ffffff;
+}
+
+div.row.frase hgroup {
+	padding: 50px;
+}
+
+div.row.frase h2 {
+	font-size: 26px;
+}
+
+div.row.frase h4 {
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+/***********************************************************/
+
+/**Rodapé 1**/
+div.row.contato {
+	background-color: #562EB8;
+	color: #ffffff;
+	padding: 50px;
+}
+
+div.row.contato div.col-md-12 {
+	padding: 0px 50px 30px 50px;
+}
+
+div.row.contato a#forms {
+    background-color: #04ADBF;
+    color: #FFF;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #04ADBF;
+}
+
+div.row.contato img {
+	width: 40px;
+}
+
+div.row.contato img#instagram {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/***********************************************************/
+
+/**Rodapé 2**/
+div.row.rodape {
+	color: #ffffff;
+	font-family: 'Roboto Slab', serif;
+	background-color:  #4B289E;
+	padding-top: 18px;
+}
+
+
+
